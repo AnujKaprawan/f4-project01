@@ -31,9 +31,9 @@ input[type="password"] {
   padding: 8px;
   margin-top: 5px;
   border-radius: 16px ;
-  border-width: 2px;
-  box-shadow: #808080;
-  border-color: #0866FF;
+  border-width: 0.5px;
+  /* box-shadow:0 0 5px rgba(0, 0, 0, 0.3); */
+  border: 2px solid rgb(47, 128, 237);
   font-size: 18px;
 }
 
