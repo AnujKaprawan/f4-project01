@@ -19,6 +19,7 @@
     gap: 10px;
     width: 20%;
 }
+
 label {
     /* display: block; */
     font-size: 20px; /* Increase font size */
@@ -27,13 +28,27 @@ label {
   
 input[type="email"],
 input[type="password"] {
-  width: 350px;
+  width: 400px;
   height: 20px;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 8px ;
   border-width: 1px;
   box-shadow: #808080;
+}
+
+button{
+    align-self: center;
+    /* justify-content: space-around; */
+    width: 80px;
+    height: 35px;
+    background-color:#0866FF;
+    border-radius: 8px; 
+    color: white;
+    margin-top: 10px;
+    margin-left: 170px;
+    border-color: #0866FF;
+    border-width: 1px;
 }
 
 input[type="email"].error,
@@ -47,19 +62,6 @@ input[type="password"].success {
   border-color: green; /* Green border for success state */
   border-width: 1px;
 }
-
-button{
-    align-self: center;
-    /* justify-content: space-around; */
-    width: 80px;
-    height: 40px;
-    background-color:#0866FF;
-    border-radius: 6px; 
-    color: white;
-    margin-top: 20px;
-    margin-left: 140px;
-}
-
 
 .error {
   color: red;
