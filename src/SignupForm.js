@@ -64,6 +64,7 @@ function SignupForm() {
           <br />
           <input
             type="email"
+            placeholder="Enter your email"
             value={email}
             onChange={handleEmailChange}
             className={emailError ? 'error' : email ? 'success' : ''}
@@ -75,6 +76,7 @@ function SignupForm() {
           <br />
           <input
             type="password"
+            placeholder="Enter your password"
             value={password}
             onChange={handlePasswordChange}
             className={passwordError ? 'error' : password ? 'success' : ''}
@@ -86,6 +88,7 @@ function SignupForm() {
           <br />
           <input
             type="password"
+            placeholder="Enter your password again"
             value={confirmPassword}
             onChange={handleConfirmPasswordChange}
             className={confirmPasswordError ? 'error' : confirmPassword ? 'success' : ''}
